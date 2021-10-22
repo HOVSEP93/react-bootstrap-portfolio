@@ -1,0 +1,68 @@
+:root {
+  --dark-purple: #202330;
+  --light-purple: #7b84aa;
+}
+
+.header {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(180deg, var(--dark-purple), var(--light-purple));
+}
+
+.header img {
+  width: 10rem;
+  border-radius: 50%;
+  justify-self: center;
+  align-self: flex-end;
+  z-index: 1;
+}
+
+#main-title {
+  padding: 2rem;
+  align-self: flex-start;
+  width: 43.75rem;
+}
+
+/********************** ICONS *******************************/
+.icons-wrapper {
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  padding: 0.7rem;
+  overflow: hidden;
+}
+
+.item {
+  width: 40px;
+  height: 40px;
+  margin: 0.7rem;
+}
+
+.item-1 {
+  background: url(icons/html5-logo.svg) no-repeat;
+}
+
+.item-2 {
+  background: url(icons/css3-logo.svg) no-repeat;
+}
+.item-3 {
+  background: url(icons/js-logo-black.svg) no-repeat;
+}
+.item-4 {
+  background: url(icons/react-logo-black.svg) no-repeat;
+}
+.item-5 {
+  background: url(icons/node-dot.svg) no-repeat;
+}
+.item-6 {
+  background: url(icons/redux-logo-black.svg) no-repeat;
+}
+.item-7 {
+  background: url(icons/sass.svg) no-repeat;
+}
+.item-8 {
+  background: url(icons/git-logo.svg) no-repeat;
+}
