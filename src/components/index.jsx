@@ -3,6 +3,7 @@ import Header from "./header";
 import About from "./about";
 import ProgressBarComponent from "./progressbar";
 import Resume from "./resume";
+import Portfolio from "./portfolio";
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
       <About />
       <ProgressBarComponent />
       <Resume />
+      <Portfolio />
     </>
   );
 };
