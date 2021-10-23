@@ -9,7 +9,7 @@ import { content } from "./content";
 
 const Portfolio = () => {
   return (
-    <div className="container-fluid">
+    <div id="portfolio" className="container-fluid">
       <h1
         style={{
           textAlign: "center",

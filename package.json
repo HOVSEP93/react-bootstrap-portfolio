@@ -16,6 +16,7 @@
     "react-particles-js": "^3.4.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.4",
     "react-share": "^4.4.0",
     "swiper": "^7.0.9",
     "tsparticles": "^1.36.0",

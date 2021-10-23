@@ -11,7 +11,7 @@ import { FacebookIcon, LinkedinIcon, TwitterIcon } from "react-share";
 
 const About = () => {
   return (
-    <section className="about">
+    <section id="about" className="about">
       <div className="container">
         <h1>ABOUT ME</h1>
         <div className="row">
