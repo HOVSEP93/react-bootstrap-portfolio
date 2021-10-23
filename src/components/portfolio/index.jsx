@@ -25,7 +25,7 @@ const Portfolio = () => {
         {content.map((item, key) => (
           <div
             key={key}
-            className="col-md-6 col-sm-12 d-flex justify-content-center"
+            className="col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center"
           >
             <figure className="effect">
               <img src={item.img} alt={item.title} />

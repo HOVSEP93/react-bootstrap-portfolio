@@ -16,43 +16,43 @@
 }
 
 .icon-wevdev::before {
-  font-family: 'Font Awesome 5 Pro';
-  content: '\f1c9';
+  font-family: "Font Awesome 5 Pro";
+  content: "\f1c9";
   font-size: 1.7em;
   color: tomato;
 }
 
 .icon-design::before {
-  font-family: 'Font Awesome 5 Pro';
-  content: '\f5ae';
+  font-family: "Font Awesome 5 Pro";
+  content: "\f5ae";
   font-size: 1.7em;
   color: tomato;
 }
 
 .icon-google-adwords::before {
-  font-family: 'Font Awesome 5 Brands';
-  content: '\f1a0';
+  font-family: "Font Awesome 5 Brands";
+  content: "\f1a0";
   font-size: 1.7em;
   color: tomato;
 }
 
 .icon-smm::before {
-  font-family: 'Font Awesome 5 Pro';
-  content: '\f0c0';
+  font-family: "Font Awesome 5 Pro";
+  content: "\f0c0";
   font-size: 1.7em;
   color: tomato;
 }
 
 .icon-app-dev::before {
-  font-family: 'Font Awesome 5 Pro';
-  content: '\f3cd';
+  font-family: "Font Awesome 5 Pro";
+  content: "\f3cd";
   font-size: 1.7em;
   color: tomato;
 }
 
 .icon-support::before {
-  font-family: 'Font Awesome 5 Pro';
-  content: '\f2a0';
+  font-family: "Font Awesome 5 Pro";
+  content: "\f2a0";
   font-size: 1.7em;
   color: tomato;
 }
@@ -61,7 +61,8 @@
   display: grid;
   justify-content: center;
   padding: 1.5rem;
-  width: 18rem;
+  margin-bottom: 1rem;
+  width: 100%;
   height: 14rem;
   text-align: center;
   background: #fff;
