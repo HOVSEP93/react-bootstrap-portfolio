@@ -116,3 +116,10 @@
   font-weight: 700;
   justify-self: center;
 }
+
+/******************* MEDIA QUERY **************************/
+@media (max-width: 670px) {
+  .form-container {
+    width: 100%;
+  }
+}
