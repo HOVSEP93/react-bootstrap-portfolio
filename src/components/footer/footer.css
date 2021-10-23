@@ -1,0 +1,17 @@
+footer {
+  background: #202330;
+}
+
+ul {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+ul li a {
+  color: #4e4e4e;
+}
+
+ul li a:hover {
+  color: #4ab;
+  text-decoration: none;
+}
