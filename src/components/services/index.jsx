@@ -10,7 +10,7 @@ const Services = () => {
         <h1>my offer to you</h1>
         <div className="row">
           {servicesContent.map((item, key) => (
-            <div className="col-md-4 col-sm-12" key={key}>
+            <div className="col-lg-4 col-md-6 col-sm-12" key={key}>
               <div className="service-box">
                 <span className={item.className}></span>
                 <h5>{item.title}</h5>
