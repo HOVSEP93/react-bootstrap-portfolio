@@ -68,3 +68,23 @@
 .item-8 {
   background: url(icons/git-logo.svg) no-repeat;
 }
+
+/******************** MEDIA QUERY ****************************/
+
+@media (max-width: 670px) {
+  #main-title {
+    width: 33.75rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 460px) {
+  #main-title {
+    width: 23.75rem;
+  }
+
+  .item {
+    width: 20px;
+    height: 20px;
+    margin: 0.7rem;
+  }
+}
