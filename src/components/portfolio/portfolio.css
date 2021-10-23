@@ -71,7 +71,7 @@ figure.effect p.icon-links .share-btn {
 }
 
 figure.effect p.description {
-  bottom: 8em;
+  bottom: 5em;
   color: #fff;
   text-transform: none;
   font-size: 90%;
@@ -141,7 +141,7 @@ figure.effect:hover h2 {
 figure.effect:hover p.description {
   opacity: 1;
   background: #747da3;
-  position: relative;
+  position: absolute;
 }
 
 .demo-links {
