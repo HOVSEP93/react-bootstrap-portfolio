@@ -5,7 +5,7 @@ const MainTitle = () => {
   useEffect(() => {
     new Vivus("main-title", {
       duration: 200,
-      file: "svg/main-title_animated.svg",
+      file: "svg/mainTitle_animated.svg",
     });
   }, []);
   return <div id="main-title"></div>;
