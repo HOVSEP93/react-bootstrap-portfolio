@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="container">
+    <div id="resume" className="container">
       <div className="row d-flex">
         <div className="col-lg-6 col-md-8 col-sm-12">
           <div className="resume">

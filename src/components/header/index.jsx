@@ -57,7 +57,7 @@ const Header = () => {
           },
         }}
       />
-      <div className="header">
+      <div id="header" className="header">
         <img src={author} alt="Andrey Dovganyuk" />
         <MainTitle />
         <motion.div

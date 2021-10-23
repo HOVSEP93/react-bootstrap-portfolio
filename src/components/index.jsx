@@ -7,6 +7,7 @@ import Portfolio from "./portfolio";
 import Services from "./services";
 import Contacts from "./contacts";
 import Footer from "./footer";
+import Navbar from "./navbar";
 
 const Main = () => {
   return (
@@ -19,6 +20,7 @@ const Main = () => {
       <Services />
       <Contacts />
       <Footer />
+      <Navbar />
     </>
   );
 };

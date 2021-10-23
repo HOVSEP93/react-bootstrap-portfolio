@@ -44,7 +44,7 @@ const Contacts = () => {
   };
 
   return (
-    <div className="form-wrapper">
+    <div id="contacts" className="form-wrapper">
       <div className="form-container">
         <div className="form-card-gradient"></div>
         <h2>describe your project</h2>
