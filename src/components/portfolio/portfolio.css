@@ -1,26 +1,22 @@
 .grid {
-  position: absolute;
   margin: 0 auto;
   padding: 1em 0 4em;
   max-width: 80%;
-  height: 56.25rem;
+  height: 100%;
   list-style: none;
   text-align: center;
 }
 
 .grid figure {
   margin: 1rem;
-  position: relative;
   float: left;
   overflow: hidden;
-  min-width: 20rem;
-  max-width: 30rem;
+  width: 30rem;
   max-height: 16.125rem;
   text-align: center;
 }
 
 .grid figure img {
-  position: relative;
   display: block;
   height: 100%;
   width: 100%;
@@ -36,7 +32,6 @@
 }
 
 figure.effect figcaption {
-  position: relative;
   margin-top: -4rem;
   padding: 0.5em;
   height: 4rem;
@@ -76,7 +71,6 @@ figure.effect p.icon-links .share-btn {
 }
 
 figure.effect p.description {
-  position: relative;
   bottom: 8em;
   color: #fff;
   text-transform: none;
@@ -99,23 +93,23 @@ figure.effect:hover p.icon-links .share-btn {
 }
 
 .icon-facebook::before {
-  font-family: 'Font Awesome 5 Brands';
-  content: '\f39e';
+  font-family: "Font Awesome 5 Brands";
+  content: "\f39e";
 }
 
 .icon-twitter::before {
-  font-family: 'Font Awesome 5 Brands';
-  content: '\f099';
+  font-family: "Font Awesome 5 Brands";
+  content: "\f099";
 }
 
 .icon-linkedin::before {
-  font-family: 'Font Awesome 5 Brands';
-  content: '\f0e1';
+  font-family: "Font Awesome 5 Brands";
+  content: "\f0e1";
 }
 
 .icon-reddit::before {
-  font-family: 'Font Awesome 5 Brands';
-  content: '\f281';
+  font-family: "Font Awesome 5 Brands";
+  content: "\f281";
 }
 
 figure.effect p.icon-links .share-btn span::before {

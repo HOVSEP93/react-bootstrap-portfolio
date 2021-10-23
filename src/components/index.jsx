@@ -4,6 +4,7 @@ import About from "./about";
 import ProgressBarComponent from "./progressbar";
 import Resume from "./resume";
 import Portfolio from "./portfolio";
+import Services from "./services";
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
       <ProgressBarComponent />
       <Resume />
       <Portfolio />
+      <Services />
     </>
   );
 };
