@@ -97,6 +97,16 @@
 }
 
 /******************** MEDIA  **************************/
+@media (max-width: 576px) {
+  .timeline-block {
+    width: calc(100% + 1rem);
+  }
+
+  .wrapper {
+    margin-left: 0.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   .resume .container {
     padding-left: 0;
