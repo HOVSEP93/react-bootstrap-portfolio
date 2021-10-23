@@ -6,6 +6,7 @@ import Resume from "./resume";
 import Portfolio from "./portfolio";
 import Services from "./services";
 import Contacts from "./contacts";
+import Footer from "./footer";
 
 const Main = () => {
   return (
@@ -17,6 +18,7 @@ const Main = () => {
       <Portfolio />
       <Services />
       <Contacts />
+      <Footer />
     </>
   );
 };
