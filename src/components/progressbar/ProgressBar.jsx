@@ -52,7 +52,7 @@ const ProgressBar = (props) => {
     <div id="skills" className="main-wrapper">
       <h1>MY SKILLS</h1>
       <div className="row d-flex pb-5">
-        <div className="col-md-3 icon-wrapper pr-0">
+        <div className="col-lg-3 col-md-3 col-sm-1 col-2 icon-wrapper pr-0">
           {images.map((img, key) => (
             <img
               src={img.src}
@@ -62,7 +62,7 @@ const ProgressBar = (props) => {
             />
           ))}
         </div>
-        <div className="col-md-6 progress-wrapper">
+        <div className="col-lg-6 col-md-6 col-sm-10 col-8 progress-wrapper">
           {progressStyle.map((item, key) => (
             <div className="progress-container" key={key}>
               <div className="progress-bar-style" style={item.style}>
