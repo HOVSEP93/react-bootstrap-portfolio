@@ -4,6 +4,8 @@
   --grey: #888;
   --light-grey: #eee;
   --white: #fff;
+  --main-black: #000;
+  --main-light-black: rgb(49, 49, 49);
 }
 
 .form-wrapper {
@@ -121,5 +123,15 @@
 @media (max-width: 670px) {
   .form-container {
     width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-wrapper {
+    background: linear-gradient(
+      180deg,
+      var(--main-black),
+      var(--main-light-black)
+    );
   }
 }
