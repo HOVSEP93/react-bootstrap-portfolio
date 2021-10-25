@@ -95,7 +95,7 @@ const Experience = () => {
                   <div className="timeline-content">
                     <h3>Adobe Illustrator</h3>
                     <h5>Logo</h5>
-                    <h6>2016</h6>
+                    <h6>2015</h6>
                   </div>
                 </div>
               </div>
