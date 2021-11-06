@@ -1,3 +1,8 @@
+Live Demo
+The application is hosted on Heroku and can be accessed at the following web address: https://my-react-portfolio-h21.herokuapp.com/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
